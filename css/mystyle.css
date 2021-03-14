@@ -1,0 +1,156 @@
+body{
+	margin: 0px 0px;
+	background-color:#9FA5A4; 
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: 16px;
+	overflow-x: hidden;
+}
+
+.container{
+
+	max-width: 80%;
+	line-height: 1.6em;
+	overflow: hidden;
+	margin: auto;
+
+
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+
+}
+
+a:hover{
+	 
+}
+
+.clr{
+	clear: both;
+}
+
+
+
+#main-header{
+
+	min-height: 120px;
+	width: 100%;
+	border:#66615F 1px solid;
+	color: #D4DBEE;
+	font-family: Tahoma, Georgia, serif;
+	background-image: url("..//images/header-bg.jpg");
+	background-position: center;
+	background-repeat: repeat;
+}
+
+
+#heading{
+	top: 30px;
+	left: 50px;
+	position: absolute;
+}
+
+#sub-heading{
+	top: 70px;
+	left: 120px;
+	position: absolute;
+	font-size:14px;
+
+}
+.navigation{
+
+	min-height: 50px;
+	width:100%;
+	background-color: #3A3B3D;
+	font-size: 18px;
+	padding: 10px 0px;
+	box-sizing: border-box;
+
+}
+
+.navigation ul{
+
+display: inline;
+
+
+}
+
+.navigation li{
+	
+	float: left;
+	list-style: none;
+	color: #fff;
+	padding: 0px;
+	padding-right:25px;
+	box-sizing: border-box;
+
+}
+
+#showcase{
+	background-image: url(../images/maincontent-bg.jpg);
+	background-size: cover;
+	min-height: auto;
+	background-repeat: repeat-x;
+	max-width: 100%;
+	text-align: center;
+}
+.main-content{
+	width: 70%;
+	float: left;
+	padding: 0px 30px;
+	box-sizing: border-box;
+
+
+}
+
+.side-content{
+	
+	width: 30%;
+	float: left;
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	margin-top: 30px;
+	box-sizing: border-box;
+
+
+}
+
+#main-footer{
+	max-width: 100%;
+	padding: 20px;
+	font-size: 12px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	margin-top: 40px;
+}
+
+@media(max-width: 600px){
+	.main-content{
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+	.side-content{
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+	.navigation{
+		height: auto;
+	}
+	.navigation  li{
+		float: none;
+		width: 100%
+		height:auto;
+		text-align: center;
+
+	}
+
+	#heading, #sub-heading{
+		text-align: center;
+		position: static;
+		vertical-align: middle;
+}
