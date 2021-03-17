@@ -1,0 +1,124 @@
+body{
+	margin: 0px 0px;
+	background-color:#9FA5A4; 
+	font-family: Arial, Helvetica,sans-serif;
+	font-size: 16px;
+	overflow-x: hidden;
+}
+
+.container{
+
+	max-width: 80%;
+	line-height: 1.6em;
+	overflow: hidden;
+	margin: auto;
+
+
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+
+}
+
+a:hover{
+	 
+}
+
+.clr{
+	clear: both;
+}
+
+
+#main-header{
+
+	min-height: 120px;
+	width: 100%;
+	border:#66615F 1px solid;
+	color: #D4DBEE;
+	font-family: Tahoma, Georgia, serif;
+	background-image: url("..//images/header-bg.jpg");
+	background-position: center;
+	background-repeat: repeat;
+}
+
+.navigation{
+
+	min-height: 50px;
+	width:100%;
+	background-color: #3A3B3D;
+	font-size: 18px;
+	padding: 10px 0px;
+	box-sizing: border-box;
+
+}
+
+.navigation ul{
+
+display: inline;
+
+
+}
+
+.navigation li{
+	
+	float: left;
+	list-style: none;
+	color: #fff;
+	padding: 0px;
+	padding-right:25px;
+	box-sizing: border-box;
+
+}
+.sevice-list
+{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.sevice-list ul{
+max-width: 20em;
+padding: 5px 20px;
+margin-right: 30px;
+box-sizing: border-box;
+}
+.sevice-list li {
+	list-style: none;
+	font-size: 22px;
+	padding: 3px;
+	font-variant: small-caps;
+	font-weight: bold;
+
+	
+}
+.sevice-list li:nth-child(even){
+	background-color: #948782;
+	color: white;
+	
+}
+.sevice-list li:nth-child(odd){
+	background-color: #a8181c;
+	color: white;
+}
+
+#main-footer{
+	max-width: 100%;
+	padding: 20px;
+	font-size: 12px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	margin-top: 40px;
+}
+
+@media(max-width: 600px){
+	.navigation{
+		height: auto;
+	}
+	.navigation  li{
+		float: none;
+		width: 100%
+		height:auto;
+		text-align: center;
+
+	}
+}
